@@ -29,7 +29,7 @@
             <p class="d-inline-block align-top">Enhanced with Bootstrap4</p>
           </div>
           <p>
-            <a href="https://github.com/Kafei59">
+            <a href="https://github.com/Kafei59/portfolio">
               Developed with <i class="fa fa-heart"></i> by Pierrick Gicquelais - {{ new Date() | moment("YYYY") }} <i class="fa fa-copyright"></i>
             </a>
           </p>

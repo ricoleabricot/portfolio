@@ -24,7 +24,7 @@
         </p>
 
         <h6>
-          <a href="https://github.com/Kafei59" target="_blank">Lien vers le projet github <i class="fa fa-github"></i></a>
+          <a href="https://github.com/Kafei59/portfolio" target="_blank">Lien vers le projet github <i class="fa fa-github"></i></a>
         </h6>
       </div>
       <iframe width="100%" height="500" src="//jsfiddle.net/Kafei59/g60ufpb2/1/embedded/js,html,css/dark/?menuColor=000" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
