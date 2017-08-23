@@ -75,6 +75,10 @@
     color: white;
   }
 
+  footer {
+    background-color: #465365;
+  }
+  
   footer a {
     color: white;
   }
