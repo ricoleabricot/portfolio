@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
-    <button v-on:click="toggling()" class="navbar-toggler-left hidden-lg-up p-2">
+    <button v-on:click="toggling()" class="navbar-toggler-left hidden-sm-up p-2">
       <transition name="fade">
         <i v-if="!toggled" class="fa fa-navicon text-white"></i>
         <i v-else class="fa fa-close text-white"></i>
