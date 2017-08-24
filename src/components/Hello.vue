@@ -33,7 +33,7 @@
 
       Grâce à mes études, mon travail et mes projets personnels, j'ai acquéri de nombreuses connaissances dans le domaine du web.<br>
       Allant de l'intégration web basique (HTML, CSS), en passant par des frameworks et des stacks Javascript (Angular2, Vue.js),
-      des technologies mobiles cross-platform (react-native) jusqu'à mon expertise en backend PHP (Symfony), je fais preuve curiosité et d'apprentissage latéral.<br>
+      des technologies mobiles cross-platform (react-native) jusqu'à mon expertise en backend PHP (Symfony), je fais preuve de curiosité et d'apprentissage latéral.<br>
       <router-link type="button" class="btn btn-outline-info btn-sm" :to="{ name: 'Skills'}">Cliquez ici pour accéder à mes compétences</router-link><br><br>
     </p>
   </div>
