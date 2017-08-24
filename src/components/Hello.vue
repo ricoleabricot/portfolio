@@ -15,23 +15,26 @@
     </div>
 
     <p class="biography p-2">
-      Hello,<br><br>
-      Je m'appelle Pierrick Gicquelais, j'ai {{ age }} ans, et je suis développeur freelance.<br>
-      <i class="fa fa-coffee"></i><br><br>
+      <strong>
+        Hello,<br><br>
+        Je m'appelle Pierrick Gicquelais, j'ai {{ age }} ans, et je suis développeur freelance.<br>
+        <i class="fa fa-coffee"></i>
+      </strong>
+      <br><br>
 
       Je vous propose actuellement mes services, en tant que développeur freelance, pour des missions de courte ou moyenne durée.<br>
       Mon domaine d'expertise s'étend du front web (création de site vitrine, application web),
       au back web (création d'API, amélioration de code existant, maintenance), en passant par du développement mobile (création d'applications simples iOS et android).<br>
-      (si vous voulez me contacter: <router-link :to="{ name: 'Contact'}">contact</router-link>)<br><br>
+      <router-link type="button" class="btn btn-outline-info btn-sm" :to="{ name: 'Contact'}">Cliquez ici pour me contacter</router-link><br><br>
 
       Fort d'un bachelor d'Epitech Lille (BAC+3), passionné d'informatique et de nouvelles technologies,
       j'ai eu la chance de passer de simple développeur backend à lead développeur fullstack (front/back web + crossplatform mobile).<br>
-      (si vous voulez en savoir davantage sur mon parcours et mon CV: <router-link :to="{name: 'Resume'}">voir tout cela</router-link>)<br><br>
+      <router-link type="button" class="btn btn-outline-info btn-sm" :to="{ name: 'Resume'}">Cliquez ici pour accéder à mon parcours</router-link><br><br>
 
       Grâce à mes études, mon travail et mes projets personnels, j'ai acquéri de nombreuses connaissances dans le domaine du web.<br>
       Allant de l'intégration web basique (HTML, CSS), en passant par des frameworks et des stacks Javascript (Angular2, Vue.js),
       des technologies mobiles cross-platform (react-native) jusqu'à mon expertise en backend PHP (Symfony), je fais preuve curiosité et d'apprentissage latéral.<br>
-      (si vous voulez en savoir davantage sur mes compétences: <router-link :to="{name: 'Skills'}">voir tout cela</router-link>)<br><br>
+      <router-link type="button" class="btn btn-outline-info btn-sm" :to="{ name: 'Skills'}">Cliquez ici pour accéder à mes compétences</router-link><br><br>
     </p>
   </div>
 </template>
@@ -64,15 +67,11 @@
     margin: 0 10px;
   }
 
-  a {
-    color: #42b983;
-  }
-
   .box {
     position: relative;
     overflow: hidden;
     width: 100%;
-    min-height: 350px;
+    min-height: 370px;
   }
 
   .wave {
@@ -80,7 +79,7 @@
     top: 3%;
     left: 50%;
     width: 1800px;
-    height: 1800px;
+    height: 1820px;
     margin-left: -900px;
     margin-top: -1490px;
     opacity: 0.4;

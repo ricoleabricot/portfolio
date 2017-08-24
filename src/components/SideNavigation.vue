@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav id="sidenav" class="sidebar">
+    <nav id="sidenav" class="sidebar pt-3">
       <div class="p-3">
         <img src="/static/kafei.png" class="rounded" width="60">K.
         <hr>

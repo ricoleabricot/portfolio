@@ -1,6 +1,7 @@
 <template>
   <div>
-    <div class="heading m-5">
+    <div class="heading clearfix m-5">
+      <img src="/static/animat-responsive-color.gif" width="128">
       <h2>"Je m'efforce d'apprendre toujours plus"</h2>
       <p>
         Le développement est en perpétuel changement, ce qui est à la mode aujourd'hui ne le sera peut-être plus demain.<br>
@@ -13,7 +14,7 @@
     </div>
 
     <div class="m-5">
-      <h4>Site vitrine "Pierrick Gicquelais" en Vue.js (<i class="fa fa-rocket"></i> lancé en 2017)</h4>
+      <h4 class="pb-5">Site vitrine "Pierrick Gicquelais" en Vue.js (<i class="fa fa-rocket"></i> lancé en 2017)</h4>
       <div class="text-left">
         <p>
           Ceci est une légère présentation du code utilisé pour ce site vitrine.<br>
@@ -32,7 +33,7 @@
     </div>
 
     <div class="m-5">
-      <h4>Projet "Bound" en Symfony2 et AngularJS (<i class="fa fa-rocket"></i> lancé en 2015)</h4>
+      <h4 class="pb-5">Projet "Bound" en Symfony2 et AngularJS (<i class="fa fa-rocket"></i> lancé en 2015)</h4>
       <div class="text-left">
         <p>
           Bound est le seul projet personnel qui a vraiment abouti à un stade de développement complexe et poussé.<br>
@@ -51,7 +52,7 @@
     </div>
 
     <div class="m-5">
-      <h4>Projet "kTerm" de terminal en ligne en jQuery (<i class="fa fa-rocket"></i> lancé en 2014)</h4>
+      <h4 class="pb-5">Projet "kTerm" de terminal en ligne en jQuery (<i class="fa fa-rocket"></i> lancé en 2014)</h4>
       <div class="text-left">
         <p>
           Ce projet est un vieux projet web qui consistait à recréé un simple terminal dans un navigateur web.<br>

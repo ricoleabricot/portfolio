@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="heading m-5">
+      <img src="/static/animat-lightbulb-color.gif" width="128">
       <h2>"J'ai réussi à apprendre progressivement et pragmatiquement"</h2>
       <p>
         Fort de quelques expériences professionnelles, j'ai pu acquérir de nombreuses connaissances en développement web.<br>

@@ -78,7 +78,7 @@
   footer {
     background-color: #465365;
   }
-  
+
   footer a {
     color: white;
   }
@@ -93,7 +93,13 @@
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
-    padding-top: 53px;
+    padding-top: 30px;
+  }
+
+  @media all and (max-device-width: 480px) {
+    #app {
+      padding-top: 10px;
+    }
   }
 
   .navigation {
@@ -105,6 +111,10 @@
     min-height: 95vh;
     background-color: #f7f7f7;
     zoom: 0.9;
+  }
+
+  .heading h2 {
+    color: #5bc0de;
   }
 
   .w-20 {

@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="heading m-5">
+      <img src="/static/animat-pencil-color.gif" width="128">
       <h2>"J'aime dire que j'habite plusieurs villes"</h2>
       <p>
         Je suis disponible physiquement (rendez-vous ponctuel et défini, présentation) pour des missions freelance sur plusieurs régions.<br>
@@ -18,9 +19,11 @@
         <h4>Contact</h4>
         <p>
           Pierrick GICQUELAIS - Développeur freelance web et mobile cross-platform<br>
-          Pour m'envoyer une jolie lettre c'est par ici: <a href="mailto:pierrick.gicquelais@gmail.com">Envoyer un mail <i class="fa fa-envelope"></i></a><br>
-          Pour accéder à tous mes petits projets c'est par là: <a href="https://github.com/Kafei59" target="_blank">Lien github <i class="fa fa-github"></i></a><br>
-          Sinon, vous pouvez toujours me chanter une petite chanson au: <strong>06.37.26.95.46</strong> (merci de ne pas me démarcher pour autre chose)
+          <a href="mailto:pierrick.gicquelais@gmail.com">Pour m'envoyer une jolie lettre <i class="fa fa-envelope"></i></a><br>
+          <a href="https://github.com/Kafei59" target="_blank">Pour accéder à mes petits projets <i class="fa fa-github"></i></a><br>
+          <a href="https://www.societe.com/societe/monsieur-pierrick-gicquelais-813855988.html" target="_blank">Pour accéder au statut de ma société <i class="fa fa-bank"></i></a><br>
+          Sinon, vous pouvez toujours me chanter une petite chanson au: <strong>06.37.26.95.46</strong><br>
+          (merci de ne pas me démarcher pour autre chose)
         </p>
       </div>
     </div>

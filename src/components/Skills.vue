@@ -1,6 +1,7 @@
 <template>
   <div>
     <div class="heading m-5">
+      <img src="/static/animat-customize-color.gif" width="128">
       <h2>"Il faut savoir être couteau-suisse"</h2>
       <p>
         Le problème le plus difficile à appréhender dans le développement web, c'est la multitude de compétences diverses à acquérir.<br>
