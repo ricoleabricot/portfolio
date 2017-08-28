@@ -25,16 +25,16 @@
       Je vous propose actuellement mes services, en tant que développeur freelance, pour des missions de courte ou moyenne durée.<br>
       Mon domaine d'expertise s'étend du front web (création de site vitrine, application web),
       au back web (création d'API, amélioration de code existant, maintenance), en passant par du développement mobile (création d'applications simples iOS et android).<br>
-      <router-link type="button" class="btn btn-outline-info btn-sm" :to="{ name: 'Contact'}">Cliquez ici pour me contacter</router-link><br><br>
+      <router-link class="btn btn-outline-info btn-sm" :to="{ name: 'Contact'}">Cliquez ici pour me contacter</router-link><br><br>
 
       Fort d'un bachelor d'Epitech Lille (BAC+3), passionné d'informatique et de nouvelles technologies,
       j'ai eu la chance de passer de simple développeur backend à lead développeur fullstack (front/back web + crossplatform mobile).<br>
-      <router-link type="button" class="btn btn-outline-info btn-sm" :to="{ name: 'Resume'}">Cliquez ici pour accéder à mon parcours</router-link><br><br>
+      <router-link class="btn btn-outline-info btn-sm" :to="{ name: 'Resume'}">Cliquez ici pour accéder à mon parcours</router-link><br><br>
 
       Grâce à mes études, mon travail et mes projets personnels, j'ai acquéri de nombreuses connaissances dans le domaine du web.<br>
       Allant de l'intégration web basique (HTML, CSS), en passant par des frameworks et des stacks Javascript (Angular2, Vue.js),
       des technologies mobiles cross-platform (react-native) jusqu'à mon expertise en backend PHP (Symfony), je fais preuve de curiosité et d'apprentissage latéral.<br>
-      <router-link type="button" class="btn btn-outline-info btn-sm" :to="{ name: 'Skills'}">Cliquez ici pour accéder à mes compétences</router-link><br><br>
+      <router-link class="btn btn-outline-info btn-sm" :to="{ name: 'Skills'}">Cliquez ici pour accéder à mes compétences</router-link><br><br>
     </p>
   </div>
 </template>

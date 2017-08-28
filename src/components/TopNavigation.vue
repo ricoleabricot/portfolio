@@ -1,11 +1,11 @@
 <template>
   <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
-    <button v-on:click="toggling()" class="navbar-toggler-left hidden-sm-up p-2">
+    <a v-on:click="toggling()" class="navbar-toggler-left hidden-sm-up p-2">
       <transition name="fade">
         <i v-if="!toggled" class="fa fa-navicon text-white"></i>
         <i v-else class="fa fa-close text-white"></i>
       </transition>
-    </button>
+    </a>
 
     <a class="navbar-brand" href="#">
       <img src="/static/paper-plane-2.png" width="32" class="d-inline-block align-top">
